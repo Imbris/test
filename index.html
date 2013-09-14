@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Page Title</title>
+    <style>
+    body { margin: 0; padding: 0; font-family: sans-serif;}
+    #header { background-color: #f4f4f4; height: 45px; box-shadow: 0 0 10px rgba(0,0,0,0.2); padding: 56px 50px 0;}
+    #header input { font-family: Tahoma; background-color: #0271c7; color: #fff; margin: 0; border: 0; font-size: 12px; padding: 3px 11px 5px; float: left; margin-right: 10px;  box-shadow: 0 1px 3px rgba(0,0,0,0.3); text-shadow: 0px 2px 1px rgba(0,0,0,0.5);   -webkit-border-radius: 3px; -moz-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px;}
+    #month { padding: 14px 50px 8px; height: 24px; line-height: 17px; font-size: 12px;}
+    #month .curr_m { padding-right: 7px; font-size: 16px;}
+    #month input { font-family: Tahoma; }
+    #month input.imgb {position: relative; top: 2px; padding-right: 5px;}
+    #month input.button { position: relative; top: -2px; border: 1px solid #dfdfdf; font-size: 10px;  -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; background-color: #fff; line-height: 17px; height: 17px; padding-left: 4px;}
+    
+    #cal { padding: 0 50px;}
+    #cal .day { float: left; width: 113px; height: 105px; color: #999; padding: 6px 7px; font-size: 11px; border-top: 1px solid #ebebeb; border-left: 1px solid #ebebeb;}
+    #cal .day .date {  color: #999; line-height: 16px; margin: 0; padding-bottom: 2px;}
+    #cal .pn { float: none;}
+    #cal .bottom {border-bottom: 1px solid #ebebeb;}
+    #cal .last {border-right: 1px solid #ebebeb;}
+    #cal .today { background-color: #f4f4f4; font-weight: bold;}
+    #cal .task { background-color: #c2e4fe;}
+    #cal .task p { margin: 0; padding: 0; color: #666666; line-height: 16px;}
+    #cal .task .taskname { font-weight: bold; line-height: 16px;}
+    </style>
+</head>
+<body>
+<div id="header">
+    <input type="button" value="Добавить"/>
+    <input type="button" value="Обновить"/>
+</div>
+<div id="month">
+    <input class="imgb" type="image" src="./images/arrow_l.jpg"/><span class="curr_m">Март 2013</span><input class="imgb" type="image" src="./images/arrow_r.jpg"/>
+    <input class="button" type="button" value="Сегодня">
+</div>
+<div id="cal">
+    <div class="day"><p class="date">Понедельник, 25</p></div>
+    <div class="day"><p class="date">Вторник, 26</p></div>
+    <div class="day"><p class="date">Среда, 27</p></div>
+    <div class="day"><p class="date">Четверг, 28</p></div>
+    <div class="day"><p class="date">Пятница, 1</p></div>
+    <div class="day today"><p class="date">Суббота, 2</p></div>
+    <div class="day last"><p class="date">Воскресенье, 3</p></div>
+    <br clear="all"/>
+    <div class="day"><p class="date">4</p></div>
+    <div class="day"><p class="date">5</p></div>
+    <div class="day"><p class="date">6</p></div>
+    <div class="day"><p class="date">7</p></div>
+    <div class="day"><p class="date">8</p></div>
+    <div class="day task"><p class="date">9</p><p class="taskname">Напиться</p><p>Витя Костин, Петр Михайлов</p></div>
+    <div class="day last"><p class="date">10</p></div>
+    <br clear="all"/>
+    <div class="day"><p class="date">11</p></div>
+    <div class="day"><p class="date">12</p></div>
+    <div class="day"><p class="date">13</p></div>
+    <div class="day"><p class="date">14</p></div>
+    <div class="day"><p class="date">15</p></div>
+    <div class="day"><p class="date">16</p></div>
+    <div class="day last"><p class="date">17</p></div>
+    <br clear="all"/>
+    <div class="day"><p class="date">18</p></div>
+    <div class="day"><p class="date">19</p></div>
+    <div class="day"><p class="date">20</p></div>
+    <div class="day"><p class="date">21</p></div>
+    <div class="day task"><p class="date">22</p><p class="taskname">ДР!</p><p>Дима Молодцов</p></div>
+    <div class="day"><p class="date">23</p></div>
+    <div class="day last"><p class="date">24</p></div>
+    <br clear="all"/>
+    <div class="day bottom"><p class="date">25</p></div>
+    <div class="day bottom"><p class="date">26</p></div>
+    <div class="day bottom"><p class="date">27</p></div>
+    <div class="day bottom"><p class="date">28</p></div>
+    <div class="day bottom"><p class="date">29</p></div>
+    <div class="day bottom"><p class="date">30</p></div>
+    <div class="day bottom last"><p class="date">31</p></div>
+</div>
+</body>
+</html>
